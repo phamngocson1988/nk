@@ -79,18 +79,6 @@ return array(
     
     //'url_base_http' => 'http://hhh.nhakhoa2000.com',
     'url_base_http' => '',
-    'db_hhh' => array(
-        'domain' => '221.121.12.229',
-        'username' => 'c10nhakhoa2000',
-        'password' => 'dgmFRw2eZdFQ#',
-        'db_name' => 'db_hhh_nhakhoa2000',
-    ),
-    'db_ngt' => array(
-        'domain' => '221.121.12.229',
-        'username' => 'c10nhakhoa2000',
-        'password' => 'dgmFRw2eZdFQ#',
-        'db_name' => 'db_ngt_nhakhoa2000',
-    ),
     'image_url' => 'https://hhh.lichhen.com',
     'upload_url' => 'https://s3.ap-southeast-1.amazonaws.com/hhh.nhakhoa2000',
 );
