@@ -1,0 +1,135 @@
+/*************** booking miniweb ********************/
+#book_container {
+    width: 85%; 
+    margin: auto;
+    padding: 2.5em 0;
+    font-size: 13px;
+}
+
+#book_container table td {
+    border: 0;
+}
+
+#book_process ul.list-inline{
+    width: 100%;
+    display: table;
+}
+
+#book_process li {
+    font-size: 1.15em;
+    display: table-cell;
+}
+
+#book_choose .alert {
+    font-size: 18px;
+    margin: 0;
+    padding: 15px 0;
+    font-weight: bold;
+}
+
+#book_choose table.table tr {
+    display: table;
+    width: 100%;
+    position: relative;
+}
+
+#book_choose table.table>tbody>tr:hover {
+    cursor: pointer;
+    background: #f0f0f0 !important;
+}
+
+#book_choose table.table tr:hover td {
+    color: #373837;
+    font-weight: bold;
+}
+
+#book_choose table.table tr.col_grey {
+    background: #f3f3f5;
+}
+
+#book_choose table.table td {
+    display   : table-cell;
+    font-size : 15px;
+    color     : #555555;
+    border-top: 1px solid #f0f0f0;
+    vertical-align: middle;
+}
+
+#book_choose table.table tr:first-child td{
+    border-top: 0;
+}
+ 
+#book_info #book_process .progress {
+    height: 5px;
+    margin-bottom: 10px;
+}
+
+#hour_work .panel {
+    border-radius: 0;
+}
+
+#hour_work .panel-heading {
+    color: white;
+    background-color: #44b750;
+    border-radius: 0;
+}
+
+    /***  booking time miniweb ****/
+
+.book_time_titile {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    font-size: 1.15em;
+    font-weight: bold;
+}
+.choose_time .time{
+    line-height: 40px;
+    text-align: center;
+    color: #717171;
+}
+
+.choose_time .time:hover {
+    cursor: pointer;
+    background: #7cc9ac;
+}
+
+.choose_time .time:hover span {
+    display: none;
+    text-align: center;
+}
+
+.choose_time .time:hover:before {
+    content: 'ĐẶT LỊCH';
+    width: 100%;
+    color: white;
+}
+
+.btn_black {
+    background: #5e5e5e;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn_blue {
+    background: #7dcaac;
+    color: white;
+}
+
+    /***  book customer info miniweb ****/
+#Book-Customer-Info .form-inline .form-group {margin-left: 0; width: 53%;}
+#Book-Customer-Info .form-inline .form-group input {width: 95%;}
+.select2-selection[aria-labelledby="select2-cusCountry-container"],
+.select2-selection[aria-labelledby="select2-logCountry-container"] {
+    border-bottom-right-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+.select2-selection[aria-labelledby="select2-cusCity-container"],
+.select2-selection[aria-labelledby="select2-logCity-container"] {
+    border-bottom-left-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+}
+
+
+
+/*************** end booking miniweb ********************/

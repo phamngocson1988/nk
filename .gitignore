@@ -1,0 +1,9 @@
+/upload
+/assets/*
+
+*/runtime/*
+/framework/*
+/image
+/protected/config/main.php
+
+/protected/vendors/html2pdf/locale/en.csv

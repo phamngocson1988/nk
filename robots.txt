@@ -1,0 +1,5 @@
+User-agent: Googlebot
+Disallow: /*.xls$
+Disallow: /*.pdf$
+
+User-agent: *
